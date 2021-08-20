@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+
+  wordpress_php:
+    image: wordpress
+    container_name: tec_wordpress_php
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: tec_wordpress_db
+      WORDPRESS_DB_USER: wp_user
+      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_NAME: wp
+    volumes:
+      - .:/var/www/html
+
+  wordpress_db:
+    container_name: tec_wordpress_db
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: wp
+      MYSQL_USER: wp_user
+      MYSQL_PASSWORD: password
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  db:
