@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="w5.wpsandbox.io" id="51d7ece7-8f5b-4396-91ed-609251983ae0" port="2222" nameFormat="DESCRIPTIVE" username="inventive-wildebeest" />
+    </configs>
+  </component>
+</project>
