@@ -17,6 +17,7 @@ RUN set -eux; \
 	apt-get install -y --no-install-recommends \
 # Ghostscript is required for rendering PDF previews
 		ghostscript \
+        default-mysql-client \
 	; \
 	rm -rf /var/lib/apt/lists/*
 
@@ -152,6 +153,7 @@ RUN set -eux; \
 
 RUN apt-get update && apt-get install vim -y
 RUN pecl install xdebug-3.1.0beta2 && docker-php-ext-enable xdebug
+RUN docker-php-ext-install pcntl
 # Append our Docker xdebug configuration for our IDE to debug on port 9003.
 COPY php.ini /usr/local/etc/php/conf.d/docker-php.ini
 

@@ -4,16 +4,18 @@ services:
 
   wordpress_php:
     build:
-      context: ./docker/php/
+      context: ./docker/php7.1/
     container_name: tec_wordpress_php
     restart: always
     ports:
       - 8080:80
+      - 80:80
     environment:
       WORDPRESS_DB_HOST: tec_wordpress_db
       WORDPRESS_DB_USER: wp_user
       WORDPRESS_DB_PASSWORD: password
       WORDPRESS_DB_NAME: wp
+      XDEBUG_MODE: debug
     volumes:
       - .:/var/www/html
 

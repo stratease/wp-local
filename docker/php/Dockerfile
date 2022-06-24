@@ -4,8 +4,9 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 FROM wordpress
-RUN apt-get update && apt-get install vim -y
+RUN apt-get update && apt-get install vim default-mysql-client -y
 RUN pecl install xdebug-3.1.0beta2 && docker-php-ext-enable xdebug
+RUN docker-php-ext-install pcntl
 # Append our Docker xdebug configuration for our IDE to debug on port 9003.
 COPY php.ini /usr/local/etc/php/conf.d/docker-php.ini
 
