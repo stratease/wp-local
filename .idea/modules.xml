@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/tec-wp.iml" filepath="$PROJECT_DIR$/.idea/tec-wp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tric/.idea/tric.iml" filepath="$PROJECT_DIR$/../tric/.idea/tric.iml" />
     </modules>
   </component>
 </project>
