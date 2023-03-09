@@ -1,19 +1,23 @@
 <?php
-define( 'WP_CACHE', true ); // By SiteGround Optimizer
+define( 'WP_CACHE', false );
+
+ // Added by WP Rocket
+
 
 // define('EVENT_AGGREGATOR_API_BASE_URL', 'https://ea.lndo.site/');
+define( 'EVENT_AGGREGATOR_API_BASE_URL', 'https://ea-staging.theeventscalendar.com/' );
 
-define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' );
 define( 'SAVEQUERIES', true );
-// define( 'TEC_CUSTOM_TABLES_V1_DISABLED', false );
+//define( 'TEC_CUSTOM_TABLES_V1_DISABLED', true );
 // define( 'TEC_EVENTS_CUSTOM_TABLES_V1_MIGRATION_ENABLED', true );
 // define( 'TEC_CUSTOM_TABLES_V1_ALT_UPDATE_FLOW', true );
  define( 'TEC_EVENTS_CUSTOM_TABLES_V1_RRULE_UI_ENABLED', true );
+// define('TEC_EVENTS_CUSTOM_TABLES_V1_MIGRATION_STOP_ON_FAILURE', true);
 // define( 'TEC_EVENTS_CUSTOM_TABLES_V1_MULTI_RULE_MIGRATION_ENABLED',true);
 define('FS_METHOD', 'direct');
 define('SCRIPT_DEBUG', true);
 define('DISABLE_WP_CRON', false);
-
+define('WP_ALLOW_REPAIR', true);
 define( 'WP_DEBUG', true);
 define( 'WP_DEBUG_LOG', true );
 define('TRIBE_CACHE_VIEWS', false);

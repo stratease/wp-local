@@ -2,34 +2,26 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/pro" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/pro/src/resources/postcss/utilities" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tec" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tec/common" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tec/common/src/resources/postcss/utilities" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tec/src/resources/postcss/utilities" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/developer-insights" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-automator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-tickets" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-tickets-plus" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-tickets-plus/src/resources/postcss/utilities" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-tickets-pro" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-tickets-pro/src/resources/postcss/utilities" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-tickets/common" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-tickets/common/src/resources/postcss/utilities" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/event-tickets/src/resources/postcss/utilities" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-community" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-community/src/resources/postcss/utilities" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-community-tickets" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-filterbar" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-filterbar/src/resources/postcss/utilities" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-pro" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-pro/src/resources/postcss/utilities" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-virtual" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/events-virtual/src/resources/postcss/utilities" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/promoter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/tec-labs-manual-migration-batch-run" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/the-events-calendar" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/the-events-calendar/common" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/the-events-calendar/common/src/resources/postcss/utilities" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/plugins/the-events-calendar/src/resources/postcss/utilities" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/tribe-ext-test-data-generator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../tric" vcs="Git" />
   </component>
 </project>
