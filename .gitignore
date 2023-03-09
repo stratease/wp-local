@@ -2,3 +2,7 @@ wp-content/
 wp-includes/
 wp-admin/
 wp-*.php
+.htaccess
+.idea
+license.txt
+readme.html
