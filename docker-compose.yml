@@ -4,7 +4,7 @@ services:
 
   wordpress_php:
     build:
-      context: ./docker/php7.1/
+      context: ./docker/php7.4-owasp
     container_name: tec_wordpress_php
     restart: always
     ports:
@@ -21,7 +21,8 @@ services:
 
   wordpress_db:
     container_name: tec_wordpress_db
-    image: mysql:5.7
+    build:
+      context: ./docker/mysql
     ports:
       - 3390:3306
     restart: always
@@ -29,7 +30,8 @@ services:
       MYSQL_DATABASE: wp
       MYSQL_USER: wp_user
       MYSQL_PASSWORD: password
-      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_HOST: '%'
     volumes:
       - db:/var/lib/mysql
 
