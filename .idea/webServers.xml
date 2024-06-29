@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="90d09115-b333-40bc-81bf-2be1d1cc8b99" name="slic" url="http://localhost">
+        <fileTransfer mountedRoot="\\wsl$\Ubuntu-20.04\home\edaniels\repos\tric\_wordpress" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="d90e84fe-e0e1-4e73-8fc6-63ece4c98216" name="tec" url="http://localhost">
+        <fileTransfer mountedRoot="\\wsl$\Ubuntu-20.04\home\edaniels\repos\tec-wp" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

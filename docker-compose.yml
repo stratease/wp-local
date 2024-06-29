@@ -4,11 +4,13 @@ services:
 
   wordpress_php:
     build:
-      context: ./docker/php7.4-owasp
+      context: ./docker/php8.1.10
+    #networks:
+      #- proxy # This is to 'proxy' to the EA lando network for event aggregator (defined below and from lando networking)
     container_name: tec_wordpress_php
     restart: always
     ports:
-      - 8080:80
+      - 8881:80
       - 80:80
     environment:
       WORDPRESS_DB_HOST: tec_wordpress_db
@@ -16,6 +18,9 @@ services:
       WORDPRESS_DB_PASSWORD: password
       WORDPRESS_DB_NAME: wp
       XDEBUG_MODE: debug
+      WORDPRESS_DEBUG: 1
+      PHP_IDE_CONFIG: "serverName=tec-wp"
+      XDEBUG_CONFIG: "remote_enable=1 remote_mode=req remote_host=host.docker.internal remote_port=9003 remote_connect_back=0"
     volumes:
       - .:/var/www/html
 
@@ -37,3 +42,6 @@ services:
 
 volumes:
   db:
+networks:
+  proxy:
+    name: 'tec_network'

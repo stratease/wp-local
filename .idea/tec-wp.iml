@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/ical-tec" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/the-events-calendar" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/tec-labs-wpai-add-on/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/tec-labs-remove-past-events" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
